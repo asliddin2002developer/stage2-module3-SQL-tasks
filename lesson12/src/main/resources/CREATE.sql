@@ -41,3 +41,4 @@ CREATE TABLE payment
     constraint payment_student_id_fkey foreign key (student_id) references student(id)
 );
 
+
