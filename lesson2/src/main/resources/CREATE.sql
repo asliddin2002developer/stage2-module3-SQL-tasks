@@ -3,7 +3,7 @@ CREATE TABLE student
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(45),
     birthday DATE,
-    group INT NOT NULL
+    `group` INT NOT NULL
 );
 CREATE TABLE subject
 (
