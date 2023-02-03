@@ -30,10 +30,11 @@ INSERT INTO Student(`name`, `group`)
 INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Art', 1), ('Music', 1);
 INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Geography', 2), ('History', 2);
 INSERT INTO SUBJECT (`name`, `grade`) VALUES ('PE', 3), ('Math', 3);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Science', 4), ('IT', 4);
 INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Computer Science', 5), ('Web Development', 5);
 
 /* PAYMENT TYPE */
-INSERT INTO PAYMENTTYPE (`name`) VALUES ('DAILY'), ('WEEKLY'), ('MONTHLY');
+INSERT INTO PAYMENTTYPE (name) VALUES ('DAILY'), ('WEEKLY'), ('MONTHLY');
 
 /* PAYMENT */
 INSERT INTO PAYMENT (`type_id`, `student_id`) VALUES
