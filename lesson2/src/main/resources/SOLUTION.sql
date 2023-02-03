@@ -1,17 +1,17 @@
 /*  STUDENT*/
-INSERT INTO Student(name, group)
+INSERT INTO Student(name, `group`)
         VALUES ('John' ,1),('Chris', 1),('Carl', 1);
 
-INSERT INTO Student(name, group)
+INSERT INTO Student(name, `group`)
         VALUES ('Oliver' ,2),('James', 2),('Lucas', 2),('Henry', 2);
 
-INSERT INTO Student(name, group)
-    VALUES ('Jacob' ,3),'Logan', 3);
+INSERT INTO Student(name, `group`)
+    VALUES ('Jacob' ,3),('Logan', 3);
 
-INSERT INTO Student(name, group)
+INSERT INTO Student(name, `group`)
     VALUES ('Asliddin' ,4),('Azamat', 4),('Jahongir', 4),('Bobojon', 4);
 
-INSERT INTO Student(name, group)
+INSERT INTO Student(name, `group`)
     VALUES ('Bobur' ,5),('Elmurod', 5),('Donyor', 5),('Ikrima', 5);
 
 /* SUBJECT */
