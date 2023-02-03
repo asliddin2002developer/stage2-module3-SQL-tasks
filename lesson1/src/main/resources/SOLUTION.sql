@@ -1,20 +1,20 @@
 CREATE TABLE STUDENT (
-    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `name` VARCHAR NOT NULL,
-    `birthday` DATE,
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    birthday DATE,
     `group` INTEGER NOT NULL
 );
 
 CREATE TABLE Subject (
-    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `name` VARCHAR NOT NULL,
-    `description` VARCHAR,
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    description VARCHAR,
     `grade` INTEGER NOT NULL
 );
 
 CREATE TABLE PaymentType(
-    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `name` VARCHAR NOT NULL
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR NOT NULL
 );
 
 CREATE TABLE Payment (
@@ -28,10 +28,10 @@ CREATE TABLE Payment (
 );
 
 CREATE TABLE MARK (
-    `id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `student_id` BIGINT,
-    `subject_id` BIGINT,
-    `mark` INT NOT NULL,
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    student_id BIGINT,
+    subject_id BIGINT,
+    mark INT NOT NULL,
     FOREIGN KEY (student_id) REFERENCES Student(id),
     FOREIGN KEY (subject_id) REFERENCES Subject(id)
 );
