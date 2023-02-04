@@ -1,9 +1,8 @@
-delete from student where id in
-                          (select m.student_id from MARK as m
-                              INNER JOIN SUBJECT as s
-                                  ON m.subject_id = s.id
-                                               Group By m.student_id
-                                               HAVING COUNT(s.grade) > 4);
+delete from student where id in (select DISTINCT m.student_id from mark as m
+    INNER JOIN  Subject as s
+    ON m.subject_id = s.id
+    WHERE s.grade >= 4);
+
 
 delete from student where id in
                           (select student_id from MARK
