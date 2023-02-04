@@ -1,23 +1,43 @@
 /*  STUDENT*/
 INSERT INTO Student(`name`, groupnumber) VALUES ('John', 1);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Chris', 1);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Carl', 1);
 
-INSERT INTO Student(`name`, groupnumber) VALUES ('Oliver' ,2),('James', 2),('Lucas', 2),('Henry', 2);
 
-INSERT INTO Student(`name`, groupnumber) VALUES ('Jacob' ,3),('Logan', 3);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Oliver' ,2);
+INSERT INTO Student(`name`, groupnumber) VALUES ('James', 2);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Lucas', 2);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Henry', 2);
 
-INSERT INTO Student(`name`, groupnumber) VALUES ('Asliddin', 4),('Azamat', 4),('Jahongir', 4),('Bobojon', 4);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Jacob' ,3);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Logan', 3);
 
-INSERT INTO Student(`name`, groupnumber) VALUES ('Bobur' ,5),('Elmurod', 5),('Donyor', 5),('Ikrima', 5);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Asliddin', 4);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Azamat', 4);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Jahongir', 4);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Bobojon', 4);
+
+INSERT INTO Student(`name`, groupnumber) VALUES ('Bobur' ,5);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Elmurod', 5);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Donyor', 5);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Ikrima', 5);
 
 /* SUBJECT */
-INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Art', 1), ('Music', 1);
-INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Geography', 2), ('History', 2);
-INSERT INTO SUBJECT (`name`, `grade`) VALUES ('PE', 3), ('Math', 3);
-INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Science', 4), ('IT', 4);
-INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Computer Science', 5), ('Web Development', 5);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Art', 1);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Music', 1);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Geography', 2);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('History', 2);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('PE', 3);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Math', 3);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Science', 4);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('IT', 4);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Computer Science', 5);
+INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Web Development', 5);
 
 /* PAYMENT TYPE */
-INSERT INTO PAYMENTTYPE (name) VALUES ('DAILY'), ('WEEKLY'), ('MONTHLY');
+INSERT INTO PAYMENTTYPE (name) VALUES ('DAILY');
+INSERT INTO PAYMENTTYPE (name) VALUES ('WEEKLY');
+INSERT INTO PAYMENTTYPE (name) VALUES ('MONTHLY');
 
 /* PAYMENT */
 INSERT INTO PAYMENT (`type_id`, `student_id`) VALUES
