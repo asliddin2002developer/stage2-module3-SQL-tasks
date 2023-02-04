@@ -18,7 +18,7 @@ CREATE TABLE mark
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     student_id BIGINT,
     subject_id BIGINT,
-    mark INT NOT NULL,
+    mark INT,
     foreign key (student_id) references student(id),
     foreign key (subject_id) references subject(id)
 );
@@ -32,9 +32,9 @@ CREATE TABLE paymenttype
 CREATE TABLE payment
 (
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    type_id BIGINT NOT NULL,
+    type_id BIGINT,
     amount decimal,
-    payment_date TIMESTAMP,
+    payment_date DateTime,
     student_id BIGINT NOT NULL,
     foreign key (type_id) references paymenttype(id),
     foreign key (student_id) references student(id)
