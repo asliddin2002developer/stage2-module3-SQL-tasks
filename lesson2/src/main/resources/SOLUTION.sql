@@ -1,18 +1,13 @@
 /*  STUDENT*/
-INSERT INTO Student(name, groupnumber)
-        VALUES ('John' ,1),('Chris', 1),('Carl', 1);
+INSERT INTO Student(`name`, groupnumber) VALUES ('John' ,1),('Chris', 1),('Carl', 1);
 
-INSERT INTO Student(name, groupnumber)
-        VALUES ('Oliver' ,2),('James', 2),('Lucas', 2),('Henry', 2);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Oliver' ,2),('James', 2),('Lucas', 2),('Henry', 2);
 
-INSERT INTO Student(name, groupnumber)
-    VALUES ('Jacob' ,3),('Logan', 3);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Jacob' ,3),('Logan', 3);
 
-INSERT INTO Student(name, groupnumber)
-    VALUES ('Asliddin' ,4),('Azamat', 4),('Jahongir', 4),('Bobojon', 4);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Asliddin' ,4),('Azamat', 4),('Jahongir', 4),('Bobojon', 4);
 
-INSERT INTO Student(name, groupnumber)
-    VALUES ('Bobur' ,5),('Elmurod', 5),('Donyor', 5),('Ikrima', 5);
+INSERT INTO Student(`name`, groupnumber) VALUES ('Bobur' ,5),('Elmurod', 5),('Donyor', 5),('Ikrima', 5);
 
 /* SUBJECT */
 INSERT INTO SUBJECT (`name`, `grade`) VALUES ('Art', 1), ('Music', 1);
